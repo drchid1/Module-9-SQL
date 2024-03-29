@@ -191,7 +191,7 @@ SELECT *
 FROM employee_department
 WHERE "Department Name" = 'Sales';
 ```
-There are 52,245 staff working in the sales department
+There are 52,245 staff working in the sales department.
 !["Question 6 Output](https://github.com/drchid1/Module-9-SQL/blob/main/images/Question%206.png)
 
 ---
@@ -207,7 +207,7 @@ SELECT *
 FROM employee_department
 WHERE "Department Number" = 'd007' OR "Department Number" = 'd005'; 
 ```
-There are 137,952 staff working in the sales 
+There are 137,952 staff working in the sales and development department.
 !["Question 7 Output](https://github.com/drchid1/Module-9-SQL/blob/main/images/Question%207.png)
 
 ---
@@ -222,6 +222,7 @@ FROM employees
 GROUP BY last_name
 ORDER BY "Number of Staff with the same Surname" DESC;
 ```
+The most popular surname of employees working in this organisation is 'Baba'.
 !["Question 8 Output](https://github.com/drchid1/Module-9-SQL/blob/main/images/Question%208.png)
 
 ---
