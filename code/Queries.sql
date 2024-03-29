@@ -30,7 +30,6 @@ ON dept_manager.emp_no = employees.emp_no
 -- QUESTION 4: List the department number for each employee along with that employee’s employee number, last name,
 -- first name, and department name.
 -- The information for this query will come from employees, dept_emp and departments table.
--- On review of the output there was staff working in more than one department. To 
 
 -- Creation of a VIEW called 'employee_department'
 CREATE VIEW employee_department AS
@@ -48,6 +47,8 @@ ON dept_emp.emp_no = employees.emp_no
 -- Running the query for all employees from View
 SELECT * FROM employee_department;
 
+-- On review of the output there was staff working in more than one department.
+-- Another query was run to find staff working in more than 1 department.
 -- Running query to find duplicates from View
 -- ie: how many staff work in more than 1 department
 
