@@ -121,6 +121,7 @@ ON dept_manager.emp_no = employees.emp_no
         JOIN departments AS departments
         ON departments.dept_no = dept_manager.dept_no;
 ```
+In this output, the first and last names have been concatenated for easier reading of the manager's names. The Column names have also been re-labelled for easier reference.
 !["Question 3 Output](https://github.com/drchid1/Module-9-SQL/blob/main/images/Question%203.png)
 
 ---
@@ -161,6 +162,7 @@ GROUP BY "Employee Number"
 HAVING COUNT(*) > 1
 ORDER BY "Number of departments working for" DESC;
 ```
+There are around 31,579 employees (see row total in image) who work in more than one department, and the maximum number of departments worked by any employee is 2 
 !["Question 4-1 Output](https://github.com/drchid1/Module-9-SQL/blob/main/images/Question%204-1.png)
 
 ---
@@ -175,6 +177,7 @@ SELECT first_name, last_name, sex
 FROM employees
 WHERE first_name = 'Hercules' AND last_name LIKE 'B%';
 ```
+There are 20 employees with the first name 'Hercules' and a surname starting with the letter 'B'
 !["Question 5 Output](https://github.com/drchid1/Module-9-SQL/blob/main/images/Question%205.png)
 
 ---
@@ -188,6 +191,7 @@ SELECT *
 FROM employee_department
 WHERE "Department Name" = 'Sales';
 ```
+There are 52,245 staff working in the sales department
 !["Question 6 Output](https://github.com/drchid1/Module-9-SQL/blob/main/images/Question%206.png)
 
 ---
@@ -203,6 +207,7 @@ SELECT *
 FROM employee_department
 WHERE "Department Number" = 'd007' OR "Department Number" = 'd005'; 
 ```
+There are 137,952 staff working in the sales 
 !["Question 7 Output](https://github.com/drchid1/Module-9-SQL/blob/main/images/Question%207.png)
 
 ---
