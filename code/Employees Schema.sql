@@ -47,7 +47,7 @@ CREATE TABLE "dept_emp" (
 
 CREATE TABLE "salaries" (
 	"emp_no" integer,
-  	"salary" float NOT NULL,
+  	"salary" decimal(10,2) NOT NULL,
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no)	-- Links salaries table to employees table
 );
 
