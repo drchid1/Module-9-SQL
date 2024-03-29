@@ -7,7 +7,7 @@ The SQL Challenge Assignment is detailed in this README.md file. The assignment 
 3. Data Analysis
 
 ### Files
-The SQL code used for this assignment is stored in the 'code' folder. The **'Employees Schema.sql'** file contains the code to create and relate the tables with primary and foreign keys. The **'Quries.sql'** file holds the code for the eight questions asked in the data analysis section. The 'data' folder contains the six CSV files used to populate the respective tables. The 'images' folder includes the diagrams and output tables from pgAdmin, which will be referenced in this document.
+The SQL code used for this assignment is stored in the 'code' folder. The **'Employees Schema.sql'** file contains the code to create and relate the tables with primary and foreign keys. The **'Quries.sql'** file holds the code for the eight questions asked in the data analysis section. The 'data' folder contains the six CSV files used to populate the respective tables. The 'images' folder includes the Entity Relationship diagram and output tables from pgAdmin, which will be referenced in this document.
 
 ## Data Modelling
 An Entity Relationship Diagram (ERD) was created using the online diagramming tool [Lucid Charts](https://www.lucidchart.com/pages/). The CSV files from the 'data' folder were used to create the ERD entities, attributes, and keys. There are six tables in total in this database.
