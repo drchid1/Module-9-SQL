@@ -6,7 +6,7 @@ DROP TABLE dept_manager CASCADE;
 DROP TABLE dept_emp CASCADE;
 DROP TABLE salaries CASCADE;
 
--- Creting of all the neccessary tables and its associated keys to other tables
+-- Creating of all the neccessary tables and its associated keys to other tables
 CREATE TABLE "departments" (
   "dept_no" char(4),
   "dept_name" varchar(20) NOT NULL,
